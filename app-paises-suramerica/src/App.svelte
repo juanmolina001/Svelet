@@ -1,6 +1,6 @@
 <script>
   import Paises from "./lib/paises.svelte";
-  const lista=["colombia","venezuela","ecuador","peru","brasil"]
+  const lista=["colombia","venezuela","ecuador","peru","brasil","argentina", "chile", "uruguay", "bolivia", ""]
 </script>
 <div class="main">
   {#each lista as pais}
